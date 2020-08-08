@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'DM Sans';
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.heading-line {
+    height: 3px;
+    width: 10%;
+    background: red;
+}
+
+h2 {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/*-----------------------biography-----------------------*/
+
+.btn {
+    background-color: red;
+    color: snow;
+    border: none;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: snow;
+}
+
+
+/*-----------------------biography-----------------------*/
+
+.bg-img {
+    background: url(../images/Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+}
+
+.img-text {
+    color: white;
+    border-radius: 5px;
+    padding-top: 5rem;
+}
+
+.text {
+    font-family: Bobbers Personal Use !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: blue;
+}
+
+
+/*-----------------------works-----------------------*/
+
+h4 {
+    font-weight: 700;
+}
+
+
+/*----------Awards section--------------------------------------*/
+
+.award {
+    background-color: black;
+}
+
+
+/*-----------------------testimonials-----------------------*/
+
+
+/*-----------------------footer-----------------------*/
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+@media(min-width:320px) {
+    .home-content {
+        margin-top: 5px;
+    }
+    .footer {
+        align-items: center;
+        width: 100% !important;
+    }
+}
