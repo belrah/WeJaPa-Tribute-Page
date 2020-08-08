@@ -17,6 +17,27 @@ h2 {
 }
 
 
+/*--------------------navbar--------------*/
+
+.navbar {
+    border-bottom: 1px solid #fff;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #011627;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #777;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+
 /*-----------------------biography-----------------------*/
 
 .btn {
@@ -65,10 +86,6 @@ h4 {
 
 
 /*----------Awards section--------------------------------------*/
-
-.award {
-    background-color: black;
-}
 
 
 /*-----------------------testimonials-----------------------*/
